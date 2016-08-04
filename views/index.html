@@ -1,0 +1,57 @@
+{% extends "layout.html" %}
+
+{% block content %}
+  
+  <div class="page-header">
+    <h1>{{title}}</h1>
+  </div>
+
+  {% if showForm %}
+  <div class = "well">
+    <form action="/tweets" method="POST">
+      <label for="name_field">Name:</label>
+      <input name="name" type="text" id="name_field" value="{{name}}" >
+
+      <label for="text_field">Text:</label>
+      <input name="content" type="text" id="text_field" style="width: 350px;" />
+      <!-- <input type="hidden" name="id" value='{{userid}}'> -->
+
+      <!-- <input type="submit" value="Submit" /> -->
+      <button class= "btn btn-primary" type= 'submit'>Submit Tweet</button>
+    </form>
+  </div>
+  
+{% endif %}
+
+  <div class="row">
+    <div class="col-md-3">
+      <!-- <img src="https://pbs.twimg.com/profile_images/2450268678/olxp11gnt09no2y2wpsh_normal.jpeg"> -->
+       <img src="http://vignette3.wikia.nocookie.net/smileys/images/f/f6/Smiley_of_the_week_1.jpg/revision/latest?cb=20091130161438" width = 60px>
+      <br>
+      <b>Bobby Vee</b><br>
+      1,000,000 followers!
+    </div>
+    <div class="col-md-9" >
+    
+      <!-- display tweets here -->
+      {% for tweet in tweets %}
+       <!--  <img src="http://vignette3.wikia.nocookie.net/smileys/images/f/f6/Smiley_of_the_week_1.jpg/revision/latest?cb=20091130161438" width = 50px> -->
+
+       <div class='well tweetList'>
+         <a href="/users/{{tweet.name}}">
+           <img src="{{tweet.pictureurl}}" width=50px >
+         </a><br>
+ 
+          <span style = 'font-weight:bold'><a href='/users/{{tweet.name}}'>{{tweet.name}}</a></span> 
+          <br><a href='/tweets/{{tweet.id}}'>ID-{{tweet.id}}</a>
+          {{tweet.content}}
+
+       </div>
+       
+
+      {% endfor %}	
+      
+    </div>
+  </div>
+    
+{% endblock %}

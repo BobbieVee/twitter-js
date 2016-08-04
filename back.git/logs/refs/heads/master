@@ -1,0 +1,9 @@
+0000000000000000000000000000000000000000 8a6b9a25f024162a8ded269d2340e7621e5203d8 Robert van der Mark <robertvandermark@Roberts-MacBook-Pro.local> 1468977295 -0400	clone: from https://github.com/wlivengood/twitter-js.git
+8a6b9a25f024162a8ded269d2340e7621e5203d8 1e9666a61772009d0fef9a154b3a085addc993ca Robert van der Mark <robertvandermark@Roberts-MacBook-Pro.local> 1468978328 -0400	pull: Fast-forward
+1e9666a61772009d0fef9a154b3a085addc993ca ba16cfaad565cb6e1fa4d82fcd598e254b8a1395 Robert van der Mark <robertvandermark@new-host-5.home> 1469292245 -0400	commit: added new template
+ba16cfaad565cb6e1fa4d82fcd598e254b8a1395 826a25c467fb53d39ca5e2b99e10e5eef72ae989 Robert van der Mark <robertvandermark@new-host-5.home> 1469294792 -0400	commit: added twitter.js
+826a25c467fb53d39ca5e2b99e10e5eef72ae989 8385eb2bf50e439a9fd54604defcf4ace9ce9541 Robert van der Mark <robertvandermark@new-host-4.home> 1469309254 -0400	commit: added routes, css, html for twitter
+8385eb2bf50e439a9fd54604defcf4ace9ce9541 5327231862ef8b3f715fa8025137db43d9fe9b1d Robert van der Mark <robertvandermark@Roberts-MBP.home> 1469413929 -0400	commit: twitter.js for user and id
+5327231862ef8b3f715fa8025137db43d9fe9b1d e60b096c48bb173e06b8a0a061c1ff2b6f688321 Robert van der Mark <robertvandermark@new-host-4.home> 1469419719 -0400	commit: added input field
+e60b096c48bb173e06b8a0a061c1ff2b6f688321 dbad55f3d285a0b85b17d8adcaac307cc5626cc3 Robert van der Mark <robertvandermark@new-host.home> 1469456709 -0400	commit: added text box
+dbad55f3d285a0b85b17d8adcaac307cc5626cc3 8d019ea244ae549ffa63bba8febb35f4c66d707c Robert van der Mark <robertvandermark@Roberts-MBP.home> 1470340317 -0400	commit: insert new tweets, separate page for user, cleaned up html a little
